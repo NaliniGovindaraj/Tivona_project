@@ -6,4 +6,7 @@ TC2--test_display_added_items-->Add a product to the cart and verify the display
 TC3--test_successful_logout-->As the application will be logged in (after TC2),click logout and login back.Logout again and verify the display of "login" button.
 
 
+TC2 and TC3--Passed
+TC1--Passed but screenshot is created for it. I am trying to fix this issue.
+
                                                 
