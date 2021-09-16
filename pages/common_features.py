@@ -17,9 +17,18 @@ class CommonFeatures(SeleniumDriver):
 
     #actions
 
-    def verify_logout(self):
+    def logout_function(self):
         self.elementClick(self._commonfeatures_button,locatorType='id')
         self.elementClick(self._logout_link,locatorType="id")
+
+
+    def logout_display(self):
+        self.elementClick(self._commonfeatures_button,locatorType='id')
+        self.waitForElement(self._logout_link,locatorType='id',timeout=14,pollFrequency=1)
+        re = self.isElementDisplayed(self._logout_link,locatorType='id')
+        return re
+
+
 
 
 

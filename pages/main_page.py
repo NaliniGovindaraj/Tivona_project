@@ -14,24 +14,32 @@ class MainPage(SeleniumDriver):
     _products_page = "//span[@class='title' and (contains(text(),'Products'))]"
     _sort_button = "product_sort_container"#class
     _addtocart_button = "//button[contains(text(),'Add to cart')]"#xpath
-    #_cart_link = "//span[@class='shopping_cart_badge' and contains(text(),'1')]
     _cart_button = "shopping_cart_link"#class
+    _Sauce_backbag_link= "//div[@class='inventory_item_name' and contains(text(),'Sauce Labs Backpack')]"
+    _select_container_dd ='select_container'#class
+
 
     #actions
-    # def productPage(self):
-    #     self.isElementDisplayed(self._products_page,locatorType='xpath')
-    #
-    # def displaysortbutton(self):
-    #     self.isElementDisplayed(self._sort_button,locatorType='CLASS')
-    #
-    # def displaycartbutton(self):
-    #     self.isElementDisplayed(self._cart_button,locatorType='CLASS')
+    def productpage(self):
+        self.waitForElement(locator='self._products_page',locatorType='xpath',timeout=13, pollFrequency=0.5)
+
+        self.isElementDisplayed(self._products_page)
+
+    def selectcontainer(self):
+        self.waitForElement(self._select_container_dd,locatorType='class',timeout=13, pollFrequency=0.5)
+
+        self.isElementDisplayed(self._select_container_dd)
 
     def clickItemLink(self, itemname):
+        self.waitForElement(itemname, locatorType='partiallink',
+                               timeout=11, pollFrequency=0.5)
+
         self.elementClick(itemname, locatorType='partiallink')
 
-    def displayitem(self,itemname):
-        self.isElementDisplayed(itemname, locatorType='partiallink')
+    def displayitem(self):
+        self.waitForElement(self._Sauce_backbag_link, locatorType='xpath',timeout=12, pollFrequency=0.5)
+        self.isElementDisplayed(self._Sauce_backbag_link, locatorType='xpath')
+
 
     def ClickAddtoCart(self):
         self.elementClick(self._addtocart_button,locatorType='xpath')
@@ -40,22 +48,26 @@ class MainPage(SeleniumDriver):
         self.elementClick(self._cart_button,locatorType='class')
 
 
-    def verifyingProductpageDisplay(self):
-        result  = self.productPage()
-        return result
-
-    def verifyitem(self,itemname):
-        result  = self.displayitem(itemname)
+    #methods
+    def verifyitem(self):
+        result  = self.displayitem()
         return result
 
     def AddtoCartCheckout(self,itemname):
-        time.sleep(5)
+
         self.clickItemLink(itemname)
-        time.sleep(5)
         self.ClickAddtoCart()
-        time.sleep(5)
         self.ClickCart()
-        time.sleep(5)
+
+    def verifyingProductpageDisplay(self):
+        result = self.productpage()
+        return result
+
+    def vselectcontainer(self):
+        result = self.selectcontainer()
+        return result
+
+
 
 
 
@@ -66,8 +78,4 @@ class MainPage(SeleniumDriver):
     # _username_field = "item_3_title_link"  # id
     # _password_field = "item_0_title_link"  # id
     # _login_button = "item_2_title_link"#id
-
-
-
-
 

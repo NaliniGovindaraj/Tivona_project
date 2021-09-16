@@ -26,7 +26,6 @@ class LoginPage(SeleniumDriver):
         self.EnterUsername(username)
         self.EnterPassword(password)
         self.ClickLogin()
-        time.sleep(5)
 
     def verifyloginbuttondisplay(self):
         result = self.isElementDisplayed(self._login_button,locatorType='id')

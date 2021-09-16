@@ -13,7 +13,6 @@ from pages.common_features import CommonFeatures
 class Test_Main_Page(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
-
     def classSetup(self, oneTimeSetUp):
         self.lp = LoginPage(self.driver)
         self.mp = MainPage(self.driver)
@@ -24,13 +23,28 @@ class Test_Main_Page(unittest.TestCase):
 
 
     @pytest.mark.run(order=1)
-    @data(("standard_user", "secret_sauce","Sauce Labs Backpack"))
+    @data(("standard_user", "secret_sauce"))
     @unpack
-    def test_successful_login(self,username,password,itemname):
-        self.lp.login(username,password)
-        time.sleep(5)
-        result = self.mp.verifyitem(itemname)
-        self.ts.mark("test_successful_login",result,"TC1 Completed")
+    def test_successful_login(self,username,password):
+        loginbutton = self.lp.verifyloginbuttondisplay()
+        if loginbutton is True:
+            self.lp.login(username,password)
+            result1 = self.cf.logout_display()
+            #result1 = self.mp.verifyitem()
+            print("result")
+            print(result1)
+            self.ts.markFinal( "a",result1, "TC1 Completed")
+
+        else:
+            self.cf.logout_function()
+            self.lp.login(username, password)
+            result2 = self.cf.logout_display()
+            #result2 = self.mp.verifyitem()
+            print(result2)
+            print("Result2")
+            #result2 = self.mp.vselectcontainer()
+            self.ts.markFinal( "a",result2, "TC1 Completed")
+
 
     @pytest.mark.run(order=2)
     @data(("standard_user", "secret_sauce","Sauce Labs Backpack"))
@@ -38,17 +52,22 @@ class Test_Main_Page(unittest.TestCase):
     def test_display_added_items(self,username,password,itemname):
         self.mp.AddtoCartCheckout(itemname)
         self.cp.verifyAddedItem(itemname)
-        result = self.cp.verifyAddedItem(itemname)
-        self.ts.mark("test_display_added_items",result,"TC2 Completed")
-
-    @pytest.mark.run(order=3)
-    @data(("standard_user", "secret_sauce"))
-    @unpack
-    def test_successful_logout(self, username, password):
-        self.cf.verify_logout()
+        result1 = self.cp.verifyAddedItem(itemname)
+        self.ts.mark(result1,"TC2 Completed")
+        self.cf.logout_function()
         self.lp.login(username, password)
-        self.cf.verify_logout()
-        result = self.lp.verifyloginbuttondisplay()
-        self.ts.mark("test_successful_login", result, "TC3 Completed")
+        self.cf.logout_function()
+        result2 = self.lp.verifyloginbuttondisplay()
+        self.ts.markFinal("test_successful_login", result2, "TC2 Completed")
+
+    # @pytest.mark.run(order=3)
+    # @data(("standard_user", "secret_sauce"))
+    # @unpack
+    # def test_successful_logout(self, username, password):
+    #     self.cf.verify_logout()
+    #     self.lp.login(username, password)
+    #     self.cf.verify_logout()
+    #     result = self.lp.verifyloginbuttondisplay()
+    #     self.ts.mark("test_successful_login", result, "TC3 Completed")
 
 

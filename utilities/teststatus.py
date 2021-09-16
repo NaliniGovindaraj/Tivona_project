@@ -18,32 +18,31 @@ class TestStatus(SeleniumDriver):
 
 
     def __init__(self, driver):
-
         super().__init__(driver)
         self.driver.implicitly_wait(10)
         self.resultList = []
 
-    def setResult(self, testName, result, resultMessage):
+    def setResult(self, result, resultMessage):
         try:
             if result is not None:
                 if result is True:
                     self.resultList.append("PASS")
-                    self.log.error("### VERIFICATION SUCCESSFUL :: + " + resultMessage + testName)
+                    self.log.error("### VERIFICATION SUCCESSFUL :: + " + resultMessage)
                 else:
                     self.resultList.append("FAIL")
-                    self.log.error("### VERIFICATION FAILED :: + " + resultMessage + testName)
-                    self.screenShot(resultMessage + testName)
+                    self.log.error("### VERIFICATION FAILED :: + " + resultMessage)
+                    self.screenShot(resultMessage)
             else:
                 self.resultList.append("FAIL")
-                self.log.error("### VERIFICATION FAILED :: + " + resultMessage + testName)
-                self.screenShot(resultMessage + testName)
+                self.log.error("### VERIFICATION FAILED :: + " + resultMessage)
+                self.screenShot(resultMessage)
         except:
             self.resultList.append("FAIL")
             self.log.error("### Exception Occurred !!!")
-            self.screenShot(resultMessage + testName)
+            self.screenShot(resultMessage)
 
-    def mark(self, testName, result, resultMessage):
-        self.setResult(testName, result, resultMessage)
+    def mark(self, result, resultMessage):
+        self.setResult(result, resultMessage)
 
     def markFinal(self, testName, result, resultMessage):
 
@@ -51,7 +50,6 @@ class TestStatus(SeleniumDriver):
 
         if "FAIL" in self.resultList:
             self.log.error(testName + "###Failed###")
-            print("nalini" + self.resultList)
             self.resultList.clear()
             assert True == False
 

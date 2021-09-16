@@ -1,3 +1,6 @@
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import *
 from selenium.webdriver.common.by import By
 from traceback import print_stack
 import utilities.custom_logger as cl
@@ -89,9 +92,11 @@ class SeleniumDriver():
                 isDisplayed = element.is_displayed()
                 self.log.info("Element is displayed with locator: " + locator +
                               " locatorType: " + locatorType)
+
             else:
                 self.log.info("Element not displayed with locator: " + locator +
                               " locatorType: " + locatorType)
+
             return isDisplayed
         except:
             print("Element not found")
@@ -117,3 +122,23 @@ class SeleniumDriver():
         except:
             self.log.error("### Exception Occurred when taking screenshot")
             print_stack()
+
+    def waitForElement(self, locator="", locatorType="id",
+                               timeout=10, pollFrequency=0.5):
+
+        element = None
+        try:
+            byType = self.getByType(locatorType)
+            self.log.info("Waiting for maximum :: " + str(timeout) +
+                  " :: seconds for element to be dislayed")
+            wait = WebDriverWait(self.driver, timeout=timeout,
+                                 poll_frequency=pollFrequency,
+                                 ignored_exceptions=[NoSuchElementException,
+                                                     ElementNotVisibleException,
+                                                     ElementNotSelectableException,Element])
+            element = wait.until(EC.visibility_of_element_located((byType, locator)))
+            self.log.info("Element appeared on the web page")
+        except:
+            self.log.info("Element not appeared on the web page")
+            print_stack()
+        return element
