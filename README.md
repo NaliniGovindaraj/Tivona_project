@@ -7,6 +7,7 @@ TC3--test_successful_logout-->As the application will be logged in (after TC2),c
 
 
 TC2 and TC3--Passed
-TC1--Passed but screenshot is created for it. I am trying to fix this issue.
+TC1--gets assertion failure_When i use ts.MarkFinal-->Its not able to find the element in explicit wait,but in the next step same element is found.
+TC1--gets Passed,if i use ts.mark
 
                                                 
