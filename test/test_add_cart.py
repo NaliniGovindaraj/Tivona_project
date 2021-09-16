@@ -49,7 +49,7 @@ class Test_Main_Page(unittest.TestCase):
     @pytest.mark.run(order=2)
     @data(("standard_user", "secret_sauce","Sauce Labs Backpack"))
     @unpack
-    def test_display_added_items(self,username,password,itemname):
+    def test_display_added_items_verify_logout(self,username,password,itemname):
         self.mp.AddtoCartCheckout(itemname)
         self.cp.verifyAddedItem(itemname)
         result1 = self.cp.verifyAddedItem(itemname)

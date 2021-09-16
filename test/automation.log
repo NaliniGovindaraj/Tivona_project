@@ -3604,3 +3604,145 @@
 09/16/2021 06:20:06 PM - SeleniumDriver - INFO: Element is displayed with locator: login-button locatorType: id
 09/16/2021 06:20:06 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC2 Completed
 09/16/2021 06:20:06 PM - TestStatus - ERROR: test_successful_login###PASS###
+09/16/2021 07:10:20 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:10:20 PM - SeleniumDriver - INFO: Element is displayed with locator: login-button locatorType: id
+09/16/2021 07:10:20 PM - SeleniumDriver - INFO: Element found with locator: user-name and  locatorType: id
+09/16/2021 07:10:20 PM - SeleniumDriver - INFO: Sent data on element with locator: user-name locatorType: id
+09/16/2021 07:10:20 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+09/16/2021 07:10:21 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+09/16/2021 07:10:21 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:10:21 PM - SeleniumDriver - INFO: Clicked on element with locator: login-button locatorType: id
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Waiting for maximum :: 14 :: seconds for element to be dislayed
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element is displayed with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:10:22 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC1 Completed
+09/16/2021 07:10:22 PM - TestStatus - ERROR: a###PASS###
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Waiting for maximum :: 11 :: seconds for element to be dislayed
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Clicked on element with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Add to cart')] and  locatorType: xpath
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Add to cart')] locatorType: xpath
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: shopping_cart_link and  locatorType: class
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Clicked on element with locator: shopping_cart_link locatorType: class
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element is displayed with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element is displayed with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:10:22 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC2 Completed
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Clicked on element with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:10:22 PM - SeleniumDriver - INFO: Element found with locator: user-name and  locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Sent data on element with locator: user-name locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Clicked on element with locator: login-button locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Clicked on element with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:10:23 PM - SeleniumDriver - INFO: Element is displayed with locator: login-button locatorType: id
+09/16/2021 07:10:23 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC2 Completed
+09/16/2021 07:10:23 PM - TestStatus - ERROR: test_successful_login###PASS###
+09/16/2021 07:12:20 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:12:20 PM - SeleniumDriver - INFO: Element is displayed with locator: login-button locatorType: id
+09/16/2021 07:12:20 PM - SeleniumDriver - INFO: Element found with locator: user-name and  locatorType: id
+09/16/2021 07:12:21 PM - SeleniumDriver - INFO: Sent data on element with locator: user-name locatorType: id
+09/16/2021 07:12:21 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+09/16/2021 07:12:21 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+09/16/2021 07:12:21 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:12:21 PM - SeleniumDriver - INFO: Clicked on element with locator: login-button locatorType: id
+09/16/2021 07:12:21 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Waiting for maximum :: 14 :: seconds for element to be dislayed
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element is displayed with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:12:22 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC1 Completed
+09/16/2021 07:12:22 PM - TestStatus - ERROR: a###PASS###
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Waiting for maximum :: 11 :: seconds for element to be dislayed
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Clicked on element with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Add to cart')] and  locatorType: xpath
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Add to cart')] locatorType: xpath
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: shopping_cart_link and  locatorType: class
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Clicked on element with locator: shopping_cart_link locatorType: class
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element is displayed with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element is displayed with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:12:22 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC2 Completed
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Clicked on element with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: user-name and  locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Sent data on element with locator: user-name locatorType: id
+09/16/2021 07:12:22 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Clicked on element with locator: login-button locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Clicked on element with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:12:23 PM - SeleniumDriver - INFO: Element is displayed with locator: login-button locatorType: id
+09/16/2021 07:12:23 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC2 Completed
+09/16/2021 07:12:23 PM - TestStatus - ERROR: test_successful_login###PASS###
+09/16/2021 07:16:38 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:16:38 PM - SeleniumDriver - INFO: Element is displayed with locator: login-button locatorType: id
+09/16/2021 07:16:38 PM - SeleniumDriver - INFO: Element found with locator: user-name and  locatorType: id
+09/16/2021 07:16:38 PM - SeleniumDriver - INFO: Sent data on element with locator: user-name locatorType: id
+09/16/2021 07:16:38 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Clicked on element with locator: login-button locatorType: id
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Waiting for maximum :: 14 :: seconds for element to be dislayed
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:16:39 PM - SeleniumDriver - INFO: Element is displayed with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:16:39 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: + TC1 Completed
+09/16/2021 07:16:40 PM - TestStatus - INFO: Screenshot save to directory: C:\Users\dell-laptop\workspace_python\saucedemo\base\../screenshots/TC1 Completed.1631799999970.png
+09/16/2021 07:16:40 PM - TestStatus - ERROR: a###Failed###
+09/16/2021 07:16:40 PM - SeleniumDriver - INFO: Waiting for maximum :: 11 :: seconds for element to be dislayed
+09/16/2021 07:16:40 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/16/2021 07:16:40 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:16:40 PM - SeleniumDriver - INFO: Clicked on element with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:16:40 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Add to cart')] and  locatorType: xpath
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Add to cart')] locatorType: xpath
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: shopping_cart_link and  locatorType: class
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Clicked on element with locator: shopping_cart_link locatorType: class
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element is displayed with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: Sauce Labs Backpack and  locatorType: partiallink
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element is displayed with locator: Sauce Labs Backpack locatorType: partiallink
+09/16/2021 07:16:41 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC2 Completed
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Clicked on element with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: user-name and  locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Sent data on element with locator: user-name locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Clicked on element with locator: login-button locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: react-burger-menu-btn and  locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Clicked on element with locator: react-burger-menu-btn locatorType: id
+09/16/2021 07:16:41 PM - SeleniumDriver - INFO: Element found with locator: logout_sidebar_link and  locatorType: id
+09/16/2021 07:16:42 PM - SeleniumDriver - INFO: Clicked on element with locator: logout_sidebar_link locatorType: id
+09/16/2021 07:16:42 PM - SeleniumDriver - INFO: Element found with locator: login-button and  locatorType: id
+09/16/2021 07:16:42 PM - SeleniumDriver - INFO: Element is displayed with locator: login-button locatorType: id
+09/16/2021 07:16:42 PM - TestStatus - ERROR: ### VERIFICATION SUCCESSFUL :: + TC2 Completed
+09/16/2021 07:16:42 PM - TestStatus - ERROR: test_successful_login###PASS###
